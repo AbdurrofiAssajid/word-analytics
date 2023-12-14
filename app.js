@@ -71,7 +71,7 @@ function myFunction() {
 
     // Berikan efek scroll pada elemen dengan selektor yang benar
     ScrollReveal().reveal('.first-heading', { origin: 'top' });
-    ScrollReveal().reveal('.footer, .btn-sroll--reveal, .container', { origin: 'bottom' });
+    ScrollReveal().reveal(' .container', { origin: 'bottom' });
     ScrollReveal().reveal('', { origin: 'left' });
     ScrollReveal().reveal('.', { origin: 'right' });
   });
