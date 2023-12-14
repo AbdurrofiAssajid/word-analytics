@@ -70,8 +70,8 @@ function myFunction() {
     });
 
     // Berikan efek scroll pada elemen dengan selektor yang benar
-    ScrollReveal().reveal('.', { origin: 'top' });
-    ScrollReveal().reveal('.footer, .btn-sroll--reveal', { origin: 'bottom' });
-    ScrollReveal().reveal('.first-heading', { origin: 'left' });
-    ScrollReveal().reveal('.container', { origin: 'right' });
+    ScrollReveal().reveal('.first-heading', { origin: 'top' });
+    ScrollReveal().reveal('.footer, .btn-sroll--reveal, .container', { origin: 'bottom' });
+    ScrollReveal().reveal('', { origin: 'left' });
+    ScrollReveal().reveal('.', { origin: 'right' });
   });
