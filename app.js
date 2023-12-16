@@ -51,14 +51,13 @@ textareaEl.addEventListener('input', inputHandler)
 function myFunction() {
     let text;
     const person = prompt("Please enter your name:", "")
-    if (person == null || person == "") {
+    if (person === null || person === "") {
       text = "User cancelled the prompt.";
     } else {
       text = "Hey " + person + "! Thank you for visiting, enjoy your day";
       // Add an alert here
       alert(text);
     }
-    document.getElementById("demo").innerHTML = text;
   }
 
   document.addEventListener('DOMContentLoaded', function () {
@@ -72,6 +71,4 @@ function myFunction() {
     // Berikan efek scroll pada elemen dengan selektor yang benar
     ScrollReveal().reveal('.first-heading', { origin: 'top' });
     ScrollReveal().reveal(' .container', { origin: 'bottom' });
-    ScrollReveal().reveal('', { origin: 'left' });
-    ScrollReveal().reveal('.', { origin: 'right' });
   });
